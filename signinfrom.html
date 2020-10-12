@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sign in</title>
+
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" type="text/css" href="signinform.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="jquery/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<style>
+		@font-face {
+			font-family: "titles";
+			src: url(pro-font/Delius/Delius-Regular.ttf);
+		}
+
+		@font-face {
+			font-family: "poppin";
+			src: url(pro-font/Poppins/Poppins-Regular.ttf);
+		}
+
+		body {
+			font-family: poppin !important;
+
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container-fluid" style="background: #181818">
+		<div class="row">
+			<div class="col-md-5 col-sm-12">
+
+				<h3 class="text-center text-white mb-3 mt-5">PureInsight</h3>
+
+				<form action="" method="" class="m-auto" style="width: 80%" id="login-form">
+					<div class="form-group my-4">
+						<label class="text-white">Email or Username</label>
+						<input type="text" name="username" placeholder="" class="form-control usrname" required="">
+					</div>
+
+					<div class="form-group my-4">
+						<label class="text-white">Password</label>
+						<input type="password" name="Password" class="form-control form-control-sm pwd">
+						<!-- form-control-sm -lg -md -->
+					</div>
+
+					<div class="form-group form-inline my-4">
+						<label for="choose_level" class="text-white">You are</label>
+						<select class="form-control mx-1" id="choose_level">
+							<option>Beginner</option>
+							<option>Intermediate</option>
+							<option>Advance</option>
+						</select>
+					</div>
+
+					<div class="form-group my-4">
+						<input type="submit" id="btn-form" name="btnsubmit" class="btn btn-success btn-block login-btn"
+							value="Sign in">
+					</div>
+				</form>
+				<!-- Create new an account -->
+				<div class="text-center">
+					<p><a href="" class="text-light">Forget password?</a></p>
+					<div class="or">
+						<hr class="hr bg-light">
+						<span class="forget-p text-white">OR</span>
+						<hr class="hr bg-light">
+					</div>
+					<a href="signup.html" class="btn btn-outline-dark text-white">Create a new account</a>
+				</div>
+			</div>
+
+			<div class="col-md-7 col-sm-12 sign">
+				<div class=" text-center m-auto sign-img">
+					<h4 class="text-white h2">Let's create the future together</h4>
+				</div>
+
+				<!-- <div class="sign-text">
+					<h4 class="text-white">Let's create the future together</h4>
+					<a href="" class="btn btn-light">Here Free Course!</a>
+				</div> -->
+			</div>
+		</div>
+	</div>
+
+	<script src="js/Functions.js"></script>
+	<script src="js/login.js"></script>
+</body>
+
+</html>

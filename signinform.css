@@ -1,0 +1,75 @@
+.or {
+	display: flex;
+	width: 60%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.hr {
+	margin: 12px 0;
+	flex: auto;
+    border: none;
+    height: 1px;
+    background-color: #000;
+
+}
+
+.forget-p {
+	padding: 0px 10px;
+}
+
+
+.sign-img {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	height: 100vh;
+    background-image: url(img/loginWall.PNG);
+    background-position: 50%;
+    background-size: cover;
+}
+
+.sign-img>img {
+	width: 100%;
+	position: relative;
+}
+
+.sign-text {
+	position: absolute;
+	top: 35%;
+	left: 23%;
+}
+
+.sign-text>a {
+	position: absolute;
+	left: 110px;
+	top: 85px;
+}
+
+@media (max-width: 768px){
+	.sign {
+		display: none;
+	}
+}
+
+.mybackground {
+	background-image: url(img/loginwallpaper.PNG);
+	background-repeat: repeat;
+}
+
+input[type="text"], input[type="password"] {
+	background-color: #181818 !important;
+	border-color: #555555 !important;
+}
+
+#btn-form {
+	background-color: #f96816;
+	border-color: #f96816;
+	transition-property: background-color;
+	transition-duration: .3s;
+}
+
+#btn-form:hover {
+	background-color: #e66216;
+}
